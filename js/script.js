@@ -134,6 +134,28 @@ for (let i = 0; i < formInputs.length; i++) {
     });
 }
 
+//send email by JS
+const btn = document.getElementById('buttonJS');
+
+document.getElementById('formJS')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_ytie91w';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('ya recibimos tu mensaje! ツ ');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
 
 
 // page navigation variables
