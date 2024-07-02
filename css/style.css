@@ -240,7 +240,7 @@ article.active {
 }
 
 .h2 {
-    font-size: var(--fs-1);
+    font-size: var(--fs-2);
 }
 
 .h3 {
@@ -365,17 +365,18 @@ main {
 
 .info-content .name {
     color: var(--white-2);
-    font-size: var(--fs-3);
+    font-size: var(--fs-1);
     font-weight: var(--fw-500);
     letter-spacing: -0.25px;
     margin-bottom: 10px;
 }
 
 .info-content .title {
-    color: var(--white-1);
-    background: var(--border-gradient-onyx);
-    font-size: var(--fs-8);
+    color: var(--white-2);
+    /* background: var(--border-gradient-onyx); */
+    font-size: var(--fs-3);
     font-weight: var(--fw-300);
+    font-style: italic;
     width: max-content;
     padding: 3px 12px;
     border-radius: 8px;
@@ -428,6 +429,10 @@ main {
 .sidebar.active .sidebar-info_more {
     opacity: 1;
     visibility: visible;
+}
+
+.noCapitalize{
+    text-transform: none;
 }
 
 .contacts-list {
