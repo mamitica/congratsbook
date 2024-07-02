@@ -157,7 +157,11 @@
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>Sobre mí</button>
+                        <button class="navbar-link   active" data-nav-link>Felicítame</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Sobre mí</button>
                     </li>
 
                     <li class="navbar-item">
@@ -172,23 +176,69 @@
                         <button class="navbar-link" data-nav-link>Anécdotas</button>
                     </li>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Felicítame</button>
-                    </li>
+
 
                 </ul>
 
             </nav>
 
 
+            <!--
+          - #CONTACT
+        -->
 
+        <article class="contact   active" data-page="felicítame">
+
+            <header>
+                <h2 class="h2 article-title">Congrats!</h2>
+            </header>
+
+
+
+            <section class="contact-form">
+
+                <h3 class="h3 form-title">Envía tus felicitaciones a Trina</h3>
+
+                <form action="#" class="form" data-form id="formJS">
+
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" id="from_nameJS"
+                            placeholder="Full name" required data-form-input>
+
+                        <input type="email" name="email_id" class="form-input" id="email_idJS"
+                            placeholder="Email address" required data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input" id="messageJS" placeholder="Your Message" required
+                        data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" id="buttonJS" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+
+                </form>
+
+            </section>
+
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <!-- <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                        width="400" height="300" loading="lazy">
+                    </iframe> -->
+                    <img src="./images/familia.jpg" width="400" height="300" alt="foto familiar">
+                </figure>
+            </section>
+
+        </article>
 
 
             <!--
           - #ABOUT
         -->
 
-            <article class="about  active" data-page="sobre mí">
+            <article class="about" data-page="sobre mí">
 
                 <header>
                     <h2 class="h2 article-title">Sobre mí</h2>
@@ -1143,55 +1193,7 @@
 
 
 
-            <!--
-          - #CONTACT
-        -->
 
-            <article class="contact" data-page="felicítame">
-
-                <header>
-                    <h2 class="h2 article-title">Congrats!</h2>
-                </header>
-
-
-
-                <section class="contact-form">
-
-                    <h3 class="h3 form-title">Envía tus felicitaciones a Trina</h3>
-
-                    <form action="#" class="form" data-form id="formJS">
-
-                        <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" id="from_nameJS"
-                                placeholder="Full name" required data-form-input>
-
-                            <input type="email" name="email_id" class="form-input" id="email_idJS"
-                                placeholder="Email address" required data-form-input>
-                        </div>
-
-                        <textarea name="message" class="form-input" id="messageJS" placeholder="Your Message" required
-                            data-form-input></textarea>
-
-                        <button class="form-btn" type="submit" id="buttonJS" disabled data-form-btn>
-                            <ion-icon name="paper-plane"></ion-icon>
-                            <span>Send Message</span>
-                        </button>
-
-                    </form>
-
-                </section>
-
-                <section class="mapbox" data-mapbox>
-                    <figure>
-                        <!-- <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-                            width="400" height="300" loading="lazy">
-                        </iframe> -->
-                        <img src="./images/familia.jpg" width="400" height="300" alt="foto familiar">
-                    </figure>
-                </section>
-
-            </article>
 
         </div>
 
