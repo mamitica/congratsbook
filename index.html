@@ -766,237 +766,464 @@
           - #PORTFOLIO
         -->
 
-            <article class="portfolio" data-page="galería">
+        <article class="portfolio" data-page="galería">
 
-                <header>
-                    <h2 class="h2 article-title">Galería</h2>
-                </header>
+            <header>
+                <h2 class="h2 article-title">Galería</h2>
+            </header>
 
-                <section class="projects">
+            <section class="projects">
 
-                    <!-- <ul class="filter-list">
+                <ul class="filter-list">
 
-                        <li class="filter-item">
-                            <button class="active" data-filter-btn>All</button>
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Trina</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Familia</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Teatro</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>100 años</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>90 años</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>80 años</button>
+                    </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-value" data-selecct-value>Select category</div>
+
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
                         </li>
 
-                        <li class="filter-item">
-                            <button data-filter-btn>Web design</button>
+                        <li class="select-item">
+                            <button data-select-item>Trina</button>
                         </li>
 
-                        <li class="filter-item">
-                            <button data-filter-btn>Applications</button>
+                        <li class="select-item">
+                            <button data-select-item>Familia</button>
                         </li>
 
-                        <li class="filter-item">
-                            <button data-filter-btn>Web development</button>
+                        <li class="select-item">
+                            <button data-select-item>Teatro</button>
                         </li>
 
-                    </ul> -->
-
-                    <div class="filter-select-box">
-
-                        <button class="filter-select" data-select>
-
-                            <div class="select-value" data-selecct-value>Select category</div>
-
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-
-                        </button>
-
-                        <!-- <ul class="select-list">
-
-                            <li class="select-item">
-                                <button data-select-item>All</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>Web design</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>Applications</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>Web development</button>
-                            </li>
-
-                        </ul> -->
-
-                    </div>
-
-                    <!-- <ul class="project-list">
-
-                        <li class="project-item  active" data-filter-item data-category="web development">
-                            <a href="#">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./images/project-1.jpg" alt="finance" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Finance</h3>
-
-                                <p class="project-category">Web development</p>
-
-                            </a>
+                        <li class="select-item">
+                            <button data-select-item>100 años</button>
                         </li>
 
-                        <li class="project-item  active" data-filter-item data-category="web development">
-                            <a href="#">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./images/project-2.png" alt="orizon" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Orizon</h3>
-
-                                <p class="project-category">Web development</p>
-
-                            </a>
+                        <li class="select-item">
+                            <button data-select-item>90 años</button>
                         </li>
 
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="#">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./images/project-3.jpg" alt="fundo" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Fundo</h3>
-
-                                <p class="project-category">Web design</p>
-
-                            </a>
+                        <li class="select-item">
+                            <button data-select-item>80 años</button>
                         </li>
 
-                        <li class="project-item  active" data-filter-item data-category="applications">
-                            <a href="#">
+                    </ul>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                </div>
 
-                                    <img src="./images/project-4.png" alt="brawlhalla" loading="lazy">
-                                </figure>
+                <ul class="project-list">
 
-                                <h3 class="project-title">Brawlhalla</h3>
 
-                                <p class="project-category">Applications</p>
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
 
-                            </a>
-                        </li>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="#">
+                                <img src="./images/123.png" alt="con algunos hijos" loading="lazy">
+                            </figure>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                            <h3 class="project-title">con algunos hijos</h3>
 
-                                    <img src="./images/project-5.png" alt="dsm." loading="lazy">
-                                </figure>
+                            <p class="project-category">90 años</p>
 
-                                <h3 class="project-title">DSM.</h3>
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
 
-                                <p class="project-category">Web design</p>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                            </a>
-                        </li>
+                                <img src="./images/462.png" alt="algunas amigas del teatro" loading="lazy">
+                            </figure>
 
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="#">
+                            <h3 class="project-title">algunas amigas del teatro</h3>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                            <p class="project-category">90 años</p>
 
-                                    <img src="./images/project-6.png" alt="metaspark" loading="lazy">
-                                </figure>
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
 
-                                <h3 class="project-title">MetaSpark</h3>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                                <p class="project-category">Web design</p>
+                                <img src="./images/367b.png" alt="La piñata de los 90 años" loading="lazy">
+                            </figure>
 
-                            </a>
-                        </li>
+                            <h3 class="project-title">La piñata de los 90 años</h3>
 
-                        <li class="project-item  active" data-filter-item data-category="web development">
-                            <a href="#">
+                            <p class="project-category">90 años</p>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
 
-                                    <img src="./images/project-7.png" alt="summary" loading="lazy">
-                                </figure>
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
 
-                                <h3 class="project-title">Summary</h3>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                                <p class="project-category">Web development</p>
+                                <img src="./images/309.png" alt="Familia querida" loading="lazy">
+                            </figure>
 
-                            </a>
-                        </li>
+                            <h3 class="project-title">Familia querida</h3>
 
-                        <li class="project-item  active" data-filter-item data-category="applications">
-                            <a href="#">
+                            <p class="project-category">90 años</p>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
 
-                                    <img src="./images/project-8.jpg" alt="task manager" loading="lazy">
-                                </figure>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                                <h3 class="project-title">Task Manager</h3>
+                                <img src="./images/139.png" alt="nietos, bisnietos y más..." loading="lazy">
+                            </figure>
 
-                                <p class="project-category">Applications</p>
+                            <h3 class="project-title">nietos, bisnietos y más...</h3>
 
-                            </a>
-                        </li>
+                            <p class="project-category">90 años</p>
 
-                        <li class="project-item  active" data-filter-item data-category="web development">
-                            <a href="#">
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    
+                    
+                    <!--
+                      - TRINA - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="trina">
+                        <a href="#">
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-                                    <img src="./images/project-9.png" alt="arrival" loading="lazy">
-                                </figure>
+                                <img src="./images/Leyendo-DICIEMBRE-2010.jpg" alt="Trina leyendo" loading="lazy">
+                            </figure>
 
-                                <h3 class="project-title">Arrival</h3>
+                            <h3 class="project-title">Leyendo</h3>
 
-                                <p class="project-category">Web development</p>
+                            <p class="project-category">Trina</p>
 
-                            </a>
-                        </li>
+                        </a>
+                    </li>
+                    <!--
+                      - TRINA - end
+                    -->
 
-                    </ul> -->
+                    <!--
+                      - 80 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="80 años">
+                        <a href="#">
 
-                </section>
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
 
-            </article>
+                                <img src="./images/work-in-progress.gif" alt="work in progress" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Work in progress</h3>
+
+                            <p class="project-category">80 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 80 años - end
+                    -->
+
+                    <!--
+                      - 100 años - init
+                    -->
+
+                    <li class="project-item  active" data-filter-item data-category="100 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/work-in-progress.gif" alt="Work in progress" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Work in progress</h3>
+
+                            <p class="project-category">100 años</p>
+
+                        </a>
+                    </li>
+
+                    <!--
+                      - 100 AÑOS - end
+                    -->
+
+                    <!--
+                      - TEATRO - end
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="teatro">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/work-in-progress.gif" alt="Work in Progress" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Work in Progress</h3>
+
+                            <p class="project-category">Teatro</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - TEATRO - end
+                    -->
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/208.png" alt="La hora loca" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">La hora loca</h3>
+
+                            <p class="project-category">90 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/287.png" alt="concurso de sombreros" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">concurso de sombrero</h3>
+
+                            <p class="project-category">90 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+
+
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/301.png" alt="amigas" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">amigas</h3>
+
+                            <p class="project-category">90 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/451.png" alt="más del Teatro" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">más del Teatro</h3>
+
+                            <p class="project-category">90 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+
+                    <!--
+                      - 90 años - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="90 años">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/463.png" alt="de Mire Mire" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">de Mire Mire</h3>
+
+                            <p class="project-category">90 años</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - 90 años - end
+                    -->
+                    
+                    
+                    <!--
+                      - FAMILIA - init
+                    -->
+                    <li class="project-item  active" data-filter-item data-category="familia">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/work-in-progress.gif" alt="work in progress" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">work in progress</h3>
+
+                            <p class="project-category">Familia</p>
+
+                        </a>
+                    </li>
+                    <!--
+                      - FAMILIA - end
+                    -->
+
+
+                </ul>
+
+            </section>
+
+        </article>
 
 
 
