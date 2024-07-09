@@ -272,6 +272,7 @@ article.active {
     border-radius: 3px;
 }
 
+
 .has-scrollbar::-webkit-scrollbar {
     width: 5px;
     /* for vertical scrollbar */
@@ -651,6 +652,19 @@ main {
 .testimonials-item {
     min-width: 100%;
     scroll-snap-align: center;
+    animation: slide-left 5s infinite ease-in-out;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .testimonials-avatar-box {
