@@ -488,6 +488,10 @@ main {
     color: var(--light-gray);
 }
 
+.social-icon {
+    width: 30px;
+    height: auto;
+}
 
 
 
